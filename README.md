@@ -8,15 +8,9 @@
 
 <h3 align="center">🧑‍💻 About me</h3>
 
-```python
-class Adithya:
-    studies = "3rd year @ Shiv Nadar University"
-    loves   = ["training models", "machine learning", "solving problems"]
-    hobby   = "cybersecurity"  # break it, understand it, fix it
-
-    def status(self):
-        return "probably waiting on a training run ⏳"
-```
+<p align="center">
+  <img src="about.svg" alt="whoami: Adithya Chigullapally, 3rd year at Shiv Nadar University. Interests: training models, machine learning, solving problems. Hobby: cybersecurity." />
+</p>
 
 <h3 align="center">🛠️ Tools I use</h3>
 
@@ -32,20 +26,10 @@ class Adithya:
   <img src="https://raw.githubusercontent.com/adithyachigullapally/adithyachigullapally/output/space-shooter.gif" alt="A spaceship shooting down my contribution graph" />
 </p>
 
-<h3 align="center">🔥 Streak</h3>
+<h3 align="center">📈 Contributions</h3>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=adithyachigullapally&theme=dark&hide_border=true&background=0D1117&ring=00FFA3&fire=00FFA3&currStreakLabel=00FFA3" alt="GitHub contribution streak" />
-</p>
-
-<h3 align="center">🐍 ...and a snake eating what's left</h3>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adithyachigullapally/adithyachigullapally/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/adithyachigullapally/adithyachigullapally/output/snake.svg" />
-    <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/adithyachigullapally/adithyachigullapally/output/snake.svg" />
-  </picture>
+  <img src="https://streak-stats.demolab.com?user=adithyachigullapally&theme=dark&hide_border=true&background=0D1117&ring=00FFA3&fire=00FFA3&currStreakLabel=00FFA3&hide_current_streak=true&hide_longest_streak=true" alt="Total GitHub contributions" />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ffa3,50:0f3460,100:0d1117&height=120&section=footer" width="100%" alt="" />

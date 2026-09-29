@@ -15,13 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      # snk writes dist/ first; the space shooter writes into the same folder
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake.svg?color_snake=#0f3460
-            dist/snake-dark.svg?palette=github-dark&color_snake=#00ffa3
+      - run: mkdir -p dist
 
       # pinned to a main commit: no release tag has `no-commit` yet (v2.0.5 lacks it)
       - uses: czl9707/gh-space-shooter@158ae82cc0dc704f06a71c87dc40afdfebcc6f88
