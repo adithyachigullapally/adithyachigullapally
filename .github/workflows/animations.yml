@@ -17,6 +17,13 @@ jobs:
     steps:
       - run: mkdir -p dist
 
+      # served from our own branch: GitHub's image proxy is blocked on some networks,
+      # and if the card service is down we republish yesterday's copy
+      - run: >
+          curl -fsSL -o dist/contributions.svg "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=dark&hide_border=true&background=0D1117&ring=00FFA3&fire=00FFA3&currStreakLabel=00FFA3&hide_current_streak=true&hide_longest_streak=true"
+          || curl -fsSL -o dist/contributions.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/contributions.svg"
+          || true
+
       # pinned to a main commit: no release tag has `no-commit` yet (v2.0.5 lacks it)
       - uses: czl9707/gh-space-shooter@158ae82cc0dc704f06a71c87dc40afdfebcc6f88
         with:
