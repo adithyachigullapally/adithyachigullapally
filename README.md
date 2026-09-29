@@ -2,10 +2,6 @@
   <img src="assets/header.svg" width="100%" alt="Adithya Chigullapally" />
 </p>
 
-<p align="center">
-  <img src="assets/typing.svg" alt="Hi, I'm Adithya. I train models for fun. Machine learning, problem solving. Off the clock: cybersecurity." />
-</p>
-
 <h3 align="center">🧑‍💻 About me</h3>
 
 <p align="center">
