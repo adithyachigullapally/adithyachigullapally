@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="405" height="262" viewBox="0 0 405 262" role="img" aria-labelledby="title">
+<title id="title">SatQuery AI: ask questions about satellite images in plain English and get measured answers. 6 analysis tools; land-cover F1 from 0 to 0.387 after LoRA fine-tuning.</title>
+<style>
+.m{font-family:'Fira Code','JetBrains Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace}
+.lbl{font-size:12px;fill:#8b949e}
+.h{font-size:24px;font-weight:700;fill:#ffffff}
+.d{font-size:14px;fill:#c9d1d9}
+.num{font-size:26px;font-weight:700;fill:#00ffa3}
+.tag{font-size:12px;fill:#58a6ff}
+.cur{animation:blink 1s step-end infinite}
+@keyframes blink{50%{opacity:0}}
+</style>
+<defs><filter id="glow" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<rect x="6" y="6" width="393" height="250" rx="12" fill="none" stroke="#00ffa3" stroke-opacity=".35" stroke-width="2" filter="url(#glow)"/>
+<rect x="6" y="6" width="393" height="250" rx="12" fill="#0d1117" stroke="#00ffa3" stroke-opacity=".45"/>
+<path d="M6,42 H399" stroke="#30363d"/>
+<circle cx="26" cy="24" r="6" fill="#ff5f56"/><circle cx="46" cy="24" r="6" fill="#ffbd2e"/><circle cx="66" cy="24" r="6" fill="#27c93f"/>
+<text class="m lbl" x="202.5" y="28" text-anchor="middle">~/satquery</text>
+<text class="m h" x="28" y="84">SatQuery AI</text>
+<rect class="cur" x="193" y="66" width="12" height="22" fill="#00ffa3"/>
+<text class="m d" x="28" y="114">Ask questions about satellite images</text>
+<text class="m d" x="28" y="134">in plain English. Get measured answers.</text>
+<path d="M28,154 H377" stroke="#30363d"/>
+<text class="m num" x="28" y="190">6</text>
+<text class="m lbl" x="28" y="208">analysis tools</text>
+<text class="m num" x="214" y="190">0 → 0.387</text>
+<text class="m lbl" x="214" y="208">F1 after LoRA fine-tune</text>
+<text class="m tag" x="28" y="238">FastAPI · Moondream2 · LoRA · Groq</text>
+</svg>

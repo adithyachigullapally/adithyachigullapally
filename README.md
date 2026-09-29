@@ -2,6 +2,13 @@
   <img src="assets/header.svg" width="100%" alt="Adithya Chigullapally" />
 </p>
 
+<h3 align="center">📌 Featured projects</h3>
+
+<p align="center">
+  <a href="https://github.com/adithyachigullapally/explainAD"><img src="assets/explainad.svg" width="49%" alt="ExplainAD: spots factory defects in a camera image and shows where they are. 87.5 AUROC camera only, 92.1 with a 3D scanner." /></a>
+  <a href="https://github.com/adithyachigullapally/SatQuery-"><img src="assets/satquery.svg" width="49%" alt="SatQuery AI: ask questions about satellite images in plain English and get measured answers." /></a>
+</p>
+
 <h3 align="center">🧑‍💻 About me</h3>
 
 <p align="center">
