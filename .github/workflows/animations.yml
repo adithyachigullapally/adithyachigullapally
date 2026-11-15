@@ -2,7 +2,7 @@ name: Profile animations
 
 on:
   schedule:
-    - cron: "0 0 * * *" # daily, 00:00 UTC
+    - cron: "7 * * * *" # hourly, at :07 (the top of the hour is when most scheduled runs queue up)
   workflow_dispatch:
   push:
     branches: [main]
